@@ -1,0 +1,32 @@
+{
+  "name": "codeigniter",
+  "version": "0.2.0",
+  "description": "Codeigniter snippets for Atom Editor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anggriyulio/codeigniter-atom.git"
+  },
+  "engines": {
+    "atom": ">=0.174.0"
+  },
+  "readme": "# codeigniter-atom\nCodeigniter Snippet for Atom\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/anggriyulio/codeigniter-atom/issues"
+  },
+  "homepage": "https://github.com/anggriyulio/codeigniter-atom#readme",
+  "_id": "codeigniter@0.2.0",
+  "_shasum": "8fdeb050d60bfcbba86f3044cde4e2c0597b2152",
+  "_resolved": "file:..\\d-115731-5324-1drfxti\\package.tgz",
+  "_from": "..\\d-115731-5324-1drfxti\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

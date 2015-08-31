@@ -1,0 +1,15 @@
+"*":
+  "exception-reporting":
+    userId: "7b766132-9173-0c27-0ac6-c86ca95eb187"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    fontSize: 13
+    tabLength: 4
+  "sync-settings":
+    _analyticsUserId: "88137fc7-c8c9-4f7a-8c4e-b4fcbf3425ef"
+    personalAccessToken: "08076e7626d14055bb8956fb8b09cc34aec3e7df"
+    gistId: "8832691e04b761e8ec32"
+    _lastBackupHash: "5334dff78dffa017d806840ed3dd48df52a61bcc"
