@@ -8,9 +8,9 @@
     invisibles: {}
   "sync-settings":
     _analyticsUserId: "88137fc7-c8c9-4f7a-8c4e-b4fcbf3425ef"
-    personalAccessToken: "08076e7626d14055bb8956fb8b09cc34aec3e7df"
+    personalAccessToken: "448db1041b94c7e9ab22f7a36e8060f9beb64623"
     gistId: "8832691e04b761e8ec32"
-    _lastBackupHash: "5334dff78dffa017d806840ed3dd48df52a61bcc"
+    _lastBackupHash: "d275cc4bfef4048ee66cf66e6da78753844fd42a"
   minimap:
     plugins:
       "find-and-replace": true
