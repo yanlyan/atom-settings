@@ -3,14 +3,18 @@
     userId: "7b766132-9173-0c27-0ac6-c86ca95eb187"
   welcome:
     showOnStartup: false
-  core: {}
+  core:
+    autoHideMenuBar: true
   editor:
     invisibles: {}
+    fontSize: 12
+    tabLength: 4
+    showIndentGuide: true
   "sync-settings":
     _analyticsUserId: "88137fc7-c8c9-4f7a-8c4e-b4fcbf3425ef"
     personalAccessToken: "448db1041b94c7e9ab22f7a36e8060f9beb64623"
     gistId: "8832691e04b761e8ec32"
-    _lastBackupHash: "d275cc4bfef4048ee66cf66e6da78753844fd42a"
+    _lastBackupHash: "c998e2848f97ada4fd338fc053f48958adb09a8f"
   minimap:
     plugins:
       "find-and-replace": true
