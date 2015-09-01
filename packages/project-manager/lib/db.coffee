@@ -16,10 +16,11 @@ class DB
 
     fs.exists @file(), (exists) =>
       unless exists
-        fs.writeFile @file(), '{}', (error) ->
-          if error
-            atom.notifications?.addError "Project Manager", options =
-              details: "Could not create the file for storing projects"
+        @writeFile({})
+        # fs.writeFile @file(), '{}', (error) ->
+        #   if error
+        #     atom.notifications?.addError "Project Manager", options =
+        #       details: "Could not create the file for storing projects"
       else
         @subscribeToProjectsFile()
 
@@ -56,7 +57,7 @@ class DB
       id = props.title.replace(/\s+/g, '').toLowerCase()
       projects[id] = props
 
-      @writeFile projects, (success) ->
+      @writeFile projects, () ->
         atom.notifications?.addSuccess "#{props.title} has been added"
         callback?(id)
 
@@ -123,8 +124,13 @@ class DB
     @filepath
 
   readFile: (callback) ->
-    projects = CSON.readFileSync(@file()) || {}
-    callback?(projects)
+    fs.exists @file(), (exists) =>
+      if exists
+        projects = CSON.readFileSync(@file()) || {}
+        callback?(projects)
+      else
+        fs.writeFile @file(), '{}', (error) ->
+          callback?({})
 
   writeFile: (projects, callback) ->
     CSON.writeFileSync @file(), projects

@@ -1,7 +1,7 @@
 {
   "name": "project-manager",
   "main": "./lib/project-manager",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "description": "Project Manager for easy access and switching between projects in Atom.",
   "repository": {
     "type": "git",
@@ -29,10 +29,10 @@
     "url": "https://github.com/danielbrodin/atom-project-manager/issues"
   },
   "homepage": "https://github.com/danielbrodin/atom-project-manager#readme",
-  "_id": "project-manager@2.0.0",
-  "_shasum": "929fb69a548ac256be14cde1d13104e20ca417da",
-  "_resolved": "file:..\\d-115731-7520-1e910q9\\package.tgz",
-  "_from": "..\\d-115731-7520-1e910q9\\package.tgz",
+  "_id": "project-manager@2.2.0",
+  "_shasum": "b79d87936df04df890dad56b681c98db4c93fe08",
+  "_resolved": "file:..\\d-11581-3404-niurn\\package.tgz",
+  "_from": "..\\d-11581-3404-niurn\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -161,7 +161,6 @@
       ".coffee": [
         "lib\\db.coffee",
         "lib\\dialog.coffee",
-        "lib\\project-manager-add-view.coffee",
         "lib\\project-manager.coffee",
         "lib\\project.coffee",
         "lib\\projects-list-view.coffee",
