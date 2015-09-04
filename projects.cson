@@ -1,10 +1,20 @@
 "akademik-web.1.1":
   title: "akademik-web.1.1"
   paths: [
-    "D:\\xampp\\htdocs\\akademik\\development\\akademik-web.1.1"
+    "D:\\xampp\\htdocs\\akademik\\development\\siak-smk.1.0"
   ]
 psb_sma_say:
   title: "psb_sma_say"
   paths: [
     "D:\\xampp\\htdocs\\psb_sma_say"
+  ]
+python:
+  title: "python"
+  paths: [
+    "C:\\Users\\yanlyan\\Documents\\python"
+  ]
+"siak-smk.1.0":
+  title: "siak-smk.1.0"
+  paths: [
+    "D:\\xampp\\htdocs\\akademik\\development\\siak-smk.1.0"
   ]
