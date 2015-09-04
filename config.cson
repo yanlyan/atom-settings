@@ -19,3 +19,4 @@
     plugins:
       "find-and-replace": true
   "travis-ci-status": {}
+  "autocomplete-python": {}
