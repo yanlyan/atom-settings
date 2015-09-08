@@ -18,3 +18,8 @@ python:
   paths: [
     "D:\\xampp\\htdocs\\akademik\\development\\siak-smk.1.0"
   ]
+skripsiaids:
+  title: "SkripsiAIDS"
+  paths: [
+    "D:\\xampp\\htdocs\\SkripsiAIDS"
+  ]

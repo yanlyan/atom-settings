@@ -307,9 +307,9 @@
   'Form Group':
     'prefix': 'form-group'
     'body': """
-    <div class="form-group">
-      <label for="$1">$2</label>
-      <input type="${3:text}" class="form-control" id="$4" placeholder="$5">
-      ${6:<p class="help-block">${7:Help text here.}</p>}
+    <div class="form-group"><label class="col-sm-$1 control-label">$2</label>
+        <div class="col-sm-$3">
+            <input type="${3:text}" class="form-control" id="$4" placeholder="$5" value="$6">
+        </div>
     </div>
     """
