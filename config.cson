@@ -20,3 +20,13 @@
       "find-and-replace": true
   "travis-ci-status": {}
   "autocomplete-python": {}
+  wakatime:
+    apikey: ""
+    ignore: [
+      "^/var/"
+      "^/tmp/"
+      "^/private/"
+      "COMMIT_EDITMSG$"
+      "PULLREQ_EDITMSG$"
+      "MERGE_MSG$"
+    ]
