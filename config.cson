@@ -5,9 +5,10 @@
     showOnStartup: false
   core:
     autoHideMenuBar: true
+    openEmptyEditorOnStart: false
   editor:
     invisibles: {}
-    fontSize: 13
+    fontSize: 12
     tabLength: 4
     showIndentGuide: true
   "sync-settings":
@@ -21,7 +22,6 @@
   "travis-ci-status": {}
   "autocomplete-python": {}
   wakatime:
-    apikey: ""
     ignore: [
       "^/var/"
       "^/tmp/"
@@ -30,3 +30,4 @@
       "PULLREQ_EDITMSG$"
       "MERGE_MSG$"
     ]
+    apikey: "0a7bc3f5-c04e-4865-b891-6fce0321a53b"

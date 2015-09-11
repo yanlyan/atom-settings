@@ -23,3 +23,8 @@ skripsiaids:
   paths: [
     "D:\\xampp\\htdocs\\SkripsiAIDS"
   ]
+bookscraping:
+  title: "BookScraping"
+  paths: [
+    "C:\\Users\\yanlyan\\.babun\\cygwin\\home\\yanlyan\\BookScraping"
+  ]
