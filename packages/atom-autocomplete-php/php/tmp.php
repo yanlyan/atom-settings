@@ -1,1 +1,1 @@
-<?php $config = array( 'composer' => '/usr/local/bin/composer', 'php' => 'php', 'autoload' => array('vendor/autoload.php','autoload.php',), 'classmap' => array('vendor/composer/autoload_classmap.php','autoload/ezp_kernel.php',) );
+<?php $config = array( 'composer' => 'C:\ProgramData\ComposerSetup\bin\composer', 'php' => 'D:\xampp\php\php.exe', 'autoload' => array('vendor\autoload.php','D:\xampp\htdocs\phalcon-mongo\vendor\autoload.php',), 'classmap' => array('vendor/composer/autoload_classmap.php','autoload/ezp_kernel.php',) );

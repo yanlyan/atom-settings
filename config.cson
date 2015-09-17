@@ -32,4 +32,10 @@
     ]
     apikey: "0a7bc3f5-c04e-4865-b891-6fce0321a53b"
   "autocomplete-php": {}
-  "atom-autocomplete-php": {}
+  "atom-autocomplete-php":
+    binComposer: "C:\\ProgramData\\ComposerSetup\\bin\\composer"
+    binPhp: "D:\\xampp\\php\\php.exe"
+    autoloadPaths: [
+      "vendor\\autoload.php"
+      "D:\\xampp\\htdocs\\phalcon-mongo\\vendor\\autoload.php"
+    ]
