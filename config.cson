@@ -39,5 +39,4 @@
       "vendor\\autoload.php"
       "D:\\xampp\\htdocs\\phalcon-mongo\\vendor\\autoload.php"
     ]
-  "linter-php":
-    executablePath: "D:\\xampp\\php\\php.exe"
+  "linter-php": {}
