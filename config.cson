@@ -40,4 +40,6 @@
       "D:\\xampp\\htdocs\\phalcon-mongo\\vendor\\autoload.php"
     ]
   "linter-php":
-    executablePath: "D:\\xampp\\php\\php.exe"
+    executablePath: "D:\\xampp\\php\\php"
+  "open-terminal-here": {}
+  "terminal-status": {}
