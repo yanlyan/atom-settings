@@ -78,7 +78,7 @@ class AutocompleteProvider extends AbstractProvider
         description: if element.args.descriptions.short? then element.args.descriptions.short else ''
 
     # Constants and public properties
-    else
+    else if element.isProperty
       suggestions.push
         text: word,
         type: 'property'

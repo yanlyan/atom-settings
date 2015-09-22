@@ -43,3 +43,6 @@
     executablePath: "D:\\xampp\\php\\php"
   "open-terminal-here": {}
   "terminal-status": {}
+".angular.html.text":
+  editor:
+    softWrap: true
