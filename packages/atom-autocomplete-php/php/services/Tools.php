@@ -1,5 +1,7 @@
 <?php
 
+namespace Peekmo\AtomAutocompletePhp;
+
 abstract class Tools
 {
     /**
@@ -49,7 +51,7 @@ abstract class Tools
      *
      * @return array
      */
-    protected function getMethodArguments(ReflectionFunctionAbstract $function)
+    protected function getMethodArguments(\ReflectionFunctionAbstract $function)
     {
         $args = $function->getParameters();
 
@@ -83,14 +85,14 @@ abstract class Tools
         }
 
         $parser = new DocParser();
-        $docComment = $function->getDocComment() ?: '';
+        $docComment = $function->getDocComment();
 
         $docParseResult = $parser->parse($docComment, array(
             DocParser::THROWS,
             DocParser::DEPRECATED,
             DocParser::DESCRIPTION,
             DocParser::RETURN_VALUE
-        ));
+        ), ($function->name === '__construct'));
 
         $docblockInheritsLongDescription = false;
 
@@ -101,8 +103,8 @@ abstract class Tools
         }
 
         // No immediate docblock available or we need to scan the parent docblock?
-        if ((!$docComment || $docblockInheritsLongDescription) && $function instanceof ReflectionMethod) {
-            $classIterator = new ReflectionClass($function->class);
+        if ((!$docComment || $docblockInheritsLongDescription) && $function instanceof \ReflectionMethod) {
+            $classIterator = new \ReflectionClass($function->class);
             $classIterator = $classIterator->getParentClass();
 
             // Walk up base classes to see if any of them have additional info about this method.
@@ -149,7 +151,7 @@ abstract class Tools
       *
       * @return array
       */
-    protected function getPropertyArguments(ReflectionProperty $property)
+    protected function getPropertyArguments(\ReflectionProperty $property)
     {
         $parser = new DocParser();
         $docComment = $property->getDocComment() ?: '';
@@ -158,10 +160,10 @@ abstract class Tools
             DocParser::VAR_TYPE,
             DocParser::DEPRECATED,
             DocParser::DESCRIPTION
-        ));
+        ), false);
 
         if (!$docComment) {
-            $classIterator = new ReflectionClass($property->class);
+            $classIterator = new \ReflectionClass($property->class);
             $classIterator = $classIterator->getParentClass();
 
             // Walk up base classes to see if any of them have additional info about this property.
@@ -205,8 +207,8 @@ abstract class Tools
         );
 
         try {
-            $reflection = new ReflectionClass($className);
-        } catch (Exception $e) {
+            $reflection = new \ReflectionClass($className);
+        } catch (\Exception $e) {
             return $data;
         }
 
