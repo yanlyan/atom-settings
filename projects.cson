@@ -11,7 +11,7 @@ psb_sma_say:
 python:
   title: "python"
   paths: [
-    "C:\\Users\\yanlyan\\Documents\\python"
+    "C:\\Users\\yanlyan\\Desktop\\trydjango"
   ]
 "siak-smk.1.0":
   title: "siak-smk.1.0"
@@ -27,4 +27,10 @@ bookscraping:
   title: "BookScraping"
   paths: [
     "C:\\Users\\yanlyan\\.babun\\cygwin\\home\\yanlyan\\BookScraping"
+  ]
+"phalcon-mongo-tutorial":
+  title: "phalcon-mongo-tutorial"
+  paths: [
+    "D:\\xampp\\htdocs\\phalcon-mongo"
+    "D:\\xampp\\htdocs\\tutorial"
   ]
