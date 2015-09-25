@@ -6,6 +6,9 @@
   core:
     autoHideMenuBar: true
     openEmptyEditorOnStart: false
+    disabledPackages: [
+      "angularjs"
+    ]
   editor:
     invisibles: {}
     fontSize: 12
