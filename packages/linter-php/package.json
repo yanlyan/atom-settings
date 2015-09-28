@@ -30,14 +30,14 @@
   "homepage": "https://github.com/AtomLinter/linter-php#readme",
   "_id": "linter-php@1.0.4",
   "_shasum": "540c3a173801b7ba6d0a8385d043fdc368e7715e",
-  "_resolved": "file:..\\d-115826-492-1qo9gzw\\package.tgz",
-  "_from": "..\\d-115826-492-1qo9gzw\\package.tgz",
+  "_resolved": "file:..\\d-115828-1388-1tvdiip\\package.tgz",
+  "_from": "..\\d-115828-1388-1tvdiip\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
       {
         "name": "tmp",
-        "version": "0.0.27",
+        "version": "0.0.28",
         "path": "node_modules\\atom-linter\\node_modules\\tmp\\lib\\tmp.js"
       },
       {
@@ -71,6 +71,7 @@
         "node_modules\\atom-linter\\lib\\helpers.coffee"
       ],
       ".js": [
+        "node_modules\\atom-linter\\node_modules\\tmp\\Gruntfile.js",
         "node_modules\\atom-linter\\node_modules\\tmp\\lib\\tmp.js",
         "node_modules\\atom-linter\\node_modules\\tmp\\node_modules\\os-tmpdir\\index.js",
         "node_modules\\atom-linter\\node_modules\\xregexp\\xregexp-all.js",
@@ -103,13 +104,13 @@
       },
       {
         "paths": [
-          "node_modules\\atom-linter\\node_modules\\tmp\\lib",
           "node_modules\\atom-linter\\node_modules\\tmp",
+          "node_modules\\atom-linter\\node_modules\\tmp\\lib",
           "node_modules\\atom-linter\\node_modules\\tmp\\test",
           "node_modules\\atom-linter\\node_modules\\tmp\\test\\symlinkme"
         ],
         "dependencies": {
-          "os-tmpdir": "~1.0.0"
+          "os-tmpdir": "~1.0.1"
         }
       }
     ]

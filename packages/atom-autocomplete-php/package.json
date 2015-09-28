@@ -1,7 +1,7 @@
 {
   "name": "atom-autocomplete-php",
   "main": "./lib/peekmo-php-atom-autocomplete",
-  "version": "0.10.12",
+  "version": "0.12.0",
   "description": "Atom autocompletion plugin for PHP language",
   "repository": {
     "type": "git",
@@ -37,10 +37,10 @@
     "url": "https://github.com/Peekmo/atom-autocomplete-php/issues"
   },
   "homepage": "https://github.com/Peekmo/atom-autocomplete-php#readme",
-  "_id": "atom-autocomplete-php@0.10.12",
-  "_shasum": "b8e418caab3e069be48b91386358488aabea40d8",
-  "_resolved": "file:..\\d-115825-8044-14cz8dz\\package.tgz",
-  "_from": "..\\d-115825-8044-14cz8dz\\package.tgz",
+  "_id": "atom-autocomplete-php@0.12.0",
+  "_shasum": "cde31d8c492a3e7a750f93284ce34c412e98d455",
+  "_resolved": "file:..\\d-115828-3348-7fnx6l\\package.tgz",
+  "_from": "..\\d-115828-3348-7fnx6l\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -146,7 +146,7 @@
       },
       {
         "name": "brace-expansion",
-        "version": "1.1.0",
+        "version": "1.1.1",
         "path": "node_modules\\minimatch\\node_modules\\brace-expansion\\index.js"
       },
       {
@@ -163,12 +163,12 @@
     "extensions": {
       ".coffee": [
         "lib\\config.coffee",
-        "lib\\goto\\abstract-goto.coffee",
-        "lib\\goto\\class-goto.coffee",
-        "lib\\goto\\function-goto.coffee",
+        "lib\\goto\\abstract-provider.coffee",
+        "lib\\goto\\class-provider.coffee",
+        "lib\\goto\\function-provider.coffee",
         "lib\\goto\\goto-manager.coffee",
         "lib\\goto\\goto-select-list-view.coffee",
-        "lib\\goto\\property-goto.coffee",
+        "lib\\goto\\property-provider.coffee",
         "lib\\peekmo-php-atom-autocomplete.coffee",
         "lib\\providers\\abstract-provider.coffee",
         "lib\\providers\\autocomplete-provider.coffee",
@@ -181,6 +181,10 @@
         "lib\\services\\namespace.coffee",
         "lib\\services\\php-file-parser.coffee",
         "lib\\services\\php-proxy.coffee",
+        "lib\\tooltip\\abstract-provider.coffee",
+        "lib\\tooltip\\function-provider.coffee",
+        "lib\\tooltip\\property-provider.coffee",
+        "lib\\tooltip\\tooltip-manager.coffee",
         "node_modules\\sub-atom\\lib\\sub-atom.coffee"
       ],
       ".js": [
@@ -743,6 +747,7 @@
           "lib\\goto",
           "lib\\providers",
           "lib\\services",
+          "lib\\tooltip",
           "",
           "spec"
         ],
@@ -1040,8 +1045,7 @@
       },
       {
         "paths": [
-          "node_modules\\minimatch\\node_modules\\brace-expansion",
-          "node_modules\\minimatch\\node_modules\\brace-expansion\\test"
+          "node_modules\\minimatch\\node_modules\\brace-expansion"
         ],
         "dependencies": {
           "balanced-match": "^0.2.0",
