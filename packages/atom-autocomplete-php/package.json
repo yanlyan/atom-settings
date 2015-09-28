@@ -1,7 +1,7 @@
 {
   "name": "atom-autocomplete-php",
   "main": "./lib/peekmo-php-atom-autocomplete",
-  "version": "0.12.0",
+  "version": "0.12.2",
   "description": "Atom autocompletion plugin for PHP language",
   "repository": {
     "type": "git",
@@ -37,10 +37,10 @@
     "url": "https://github.com/Peekmo/atom-autocomplete-php/issues"
   },
   "homepage": "https://github.com/Peekmo/atom-autocomplete-php#readme",
-  "_id": "atom-autocomplete-php@0.12.0",
-  "_shasum": "cde31d8c492a3e7a750f93284ce34c412e98d455",
-  "_resolved": "file:..\\d-115828-3348-7fnx6l\\package.tgz",
-  "_from": "..\\d-115828-3348-7fnx6l\\package.tgz",
+  "_id": "atom-autocomplete-php@0.12.2",
+  "_shasum": "08eb5346fe67008bfa09e4392db107a81baf2ae8",
+  "_resolved": "file:..\\d-115828-6516-1tzrcqj\\package.tgz",
+  "_from": "..\\d-115828-6516-1tzrcqj\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
