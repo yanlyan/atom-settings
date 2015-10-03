@@ -8,12 +8,16 @@
     openEmptyEditorOnStart: false
     disabledPackages: [
       "angularjs"
+      "wakatime"
+      "travis-ci-status"
+      "terminal-status"
+      "sync-settings"
     ]
   editor:
     invisibles: {}
-    fontSize: 12
     tabLength: 4
     showIndentGuide: true
+    fontSize: 12
   "sync-settings":
     _analyticsUserId: "88137fc7-c8c9-4f7a-8c4e-b4fcbf3425ef"
     personalAccessToken: "448db1041b94c7e9ab22f7a36e8060f9beb64623"
